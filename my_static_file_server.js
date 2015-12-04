@@ -5,7 +5,7 @@ var express = require('express'),
 
 // app.set('view engine', 'ejs');
 
-app.use(express.static(__dirname + 'js'));
+app.use(express.static(__dirname + '/js'));
 
 app.get('/', function(request, response) {
   response.render('index');
