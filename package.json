@@ -1,15 +1,15 @@
 {
   "name": "angular",
   "version": "1.0.0",
-  "description": "",
+  "description": "github user search tool",
   "main": "index.js",
   "scripts": {
+    "start": "node my_static_file_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.13.3",
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.15",
     "karma-chrome-launcher": "^0.2.2",
@@ -17,5 +17,9 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "phantomjs": "^1.9.19",
     "protractor": "^3.0.0"
+  },
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
   }
 }
