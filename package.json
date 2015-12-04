@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node my_static_file_server.js",
+    "postinstall": "bash ./post_install.sh"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +19,15 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "phantomjs": "^1.9.19",
     "protractor": "^3.0.0"
+  },
+  "dependencies": {
+    "bower": "^1.6.8",
+    "express": "^4.13.3",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "request": "^2.67.0"
+  },
+  "engines": {
+    "node": "5.0.0"
   }
 }
